@@ -235,7 +235,7 @@ class ComplexFormula(Formula):
             If constants is not given, then constants are not collected, only variables.
             The dictionary of variables is returned.
         '''
-        if vars is None: vars = {}
+        if vars is None: vars = {} 
         for child in self.children:
             if not hasattr(child, "getVariables"): continue
             vars = child.getVariables(mln, vars, constants)
