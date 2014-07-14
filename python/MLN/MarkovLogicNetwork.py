@@ -96,7 +96,7 @@ POSSWORLDS_BLOCKING = True
 
 # -- Markov logic network
 
-class MLN(object):
+class MLN(object): 
     '''
     represents a Markov logic network and/or a ground Markov network
 
