@@ -6,9 +6,9 @@ try:
     from probcog import srldb
     import jarray
 except:
-    #sys.stderr.write("Note: Could not import Java packages - database generation disabled.")
+    sys.stderr.write("Note: Could not import Java packages - database generation disabled.")
     HAVE_JAVA = 0
-#print "java: ",HAVE_JAVA
+print "java: ",HAVE_JAVA
 import random
 
 GUID = 1

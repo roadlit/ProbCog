@@ -1,4 +1,16 @@
 eclipse.preferences.version=1
+encoding//examples/smokers/querytool_example.py=iso-8859-1
 encoding//python/MLN/MarkovLogicNetwork.py=iso-8859-1
+encoding//python/MLN/inference/ExactInference.py=iso-8859-1
+encoding//python/MLN/inference/GibbsSampler.py=iso-8859-1
+encoding//python/MLN/inference/IPFPM.py=iso-8859-1
+encoding//python/MLN/inference/Inference.py=iso-8859-1
+encoding//python/MLN/inference/MCMCInference.py=iso-8859-1
+encoding//python/MLN/inference/MCSAT.py=iso-8859-1
+encoding//python/MLN/inference/SAMaxWalkSAT.py=iso-8859-1
+encoding//python/MLN/learning/LL.py=iso-8859-1
 encoding//python/MLN/learning/Learner.py=iso-8859-1
+encoding//python/MLN/learning/PLL.py=iso-8859-1
+encoding//python/MLN/util.py=iso-8859-1
 encoding//python/mlnQueryTool.py=iso-8859-1
+encoding//python/mlnTool.py=iso-8859-1

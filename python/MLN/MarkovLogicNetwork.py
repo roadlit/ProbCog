@@ -102,7 +102,7 @@ class MLN(object):
 
     members:
         blocks:
-            dict: predicate name -> list of booleans that indicate which arguments of the pred are functionally determined by the others
+            dict: predicate name -> list of booleans that indicate which arguments of the predicates are functionally determined by the others
             (one boolean per argument, True = is functionally determined)
         closedWorldPreds:
             list of predicates that are assumed to be closed-world (for inference)

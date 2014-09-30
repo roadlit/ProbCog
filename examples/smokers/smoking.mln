@@ -17,5 +17,3 @@ Cancer(person)
 // and those with friends who don't smoke, don't smoke
 0 Friends(x, y) => (Smokes(x) <=> Smokes(y))
 
-
-

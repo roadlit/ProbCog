@@ -11,7 +11,7 @@ p4
 I0
 sS'output_filename'
 p5
-S'smoking-test-pybpll.smoking-train-smoking.results'
+S'smoking-test-test.results'
 p6
 sS'queryByDB'
 p7
@@ -22,7 +22,7 @@ S'Smokes, Smokes(Ann) v Smokes(Bob), Smokes(Ann) ^ Smokes(Bob)'
 p10
 sS'smoking-test.db'
 p11
-S'Smokes,Cancer'
+S'Cancer(Michael)'
 p12
 sS'smoking-test-smaller.db'
 p13
@@ -32,9 +32,9 @@ ssS'maxSteps'
 p15
 S'5000'
 p16
-sS'query'
+sS'run'
 p17
-g12
+I00
 sS'params1'
 p18
 S'resultsInterval=1000, infoInterval=500, p=0.6'
@@ -45,9 +45,9 @@ g3
 sS'params2'
 p21
 g3
-sS'run'
+sS'query'
 p22
-I00
+g12
 sS'db_rename'
 p23
 I0
@@ -91,11 +91,11 @@ p38
 I0
 sS'geometry'
 p39
-S'653x764+802+158'
+S'653x764+430+92'
 p40
 sS'mln'
 p41
-S'wts.pybpll.smoking-train-smoking.mln'
+S'test.mln'
 p42
 sS'openWorld'
 p43
